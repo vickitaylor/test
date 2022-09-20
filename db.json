@@ -1,0 +1,555 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ann Chovy",
+      "email": "ann@chovy.com",
+      "isStaff": false,
+      "skillLevelId": 1
+    },
+    {
+      "id": 2,
+      "name": "Tuna Turner",
+      "email": "tuna@turner.com",
+      "isStaff": true,
+      "skillLevelId": 4
+    },
+    {
+      "email": "sushi@sea.com",
+      "name": "Sushi Sea",
+      "isStaff": false,
+      "id": 3,
+      "skillLevelId": 1
+    },
+    {
+      "email": "phish@styx.com",
+      "name": "Phish Styx",
+      "isStaff": false,
+      "id": 4,
+      "skillLevelId": 3
+    },
+    {
+      "email": "james@pond.com",
+      "name": "James Pond",
+      "isStaff": true,
+      "id": 5,
+      "skillLevelId": 4
+    },
+    {
+      "email": "bubble@fett.com",
+      "name": "Bubble Fett",
+      "isStaff": false,
+      "id": 6,
+      "skillLevelId": 1
+    },
+    {
+      "email": "swim@shady.com",
+      "name": "Swim Shady",
+      "isStaff": false,
+      "id": 7,
+      "skillLevelId": 3
+    }
+  ],
+  "guides": [
+    {
+      "id": 1,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "userId": 5
+    }
+  ],
+  "diveSites": [
+    {
+      "id": 1,
+      "name": "Molasses Reef",
+      "price": 120,
+      "depth": 40,
+      "description": "Extensive reef complex that has the best collection of reefs in Florida.",
+      "url": "images/Molasses.jpeg",
+      "funFacts": "Local legend suggests Molasses is named for a barge that grounded here many years ago carrying a cargo of molasses barrels, but much of the strewn wreckage is probably from a wooden hulled Austrian ship that run aground in 1887.",
+      "willSee": "Colorful Snappers, Angelfish, Spadefish, and Parrotfish."
+    },
+    {
+      "id": 2,
+      "name": "French Reef",
+      "price": 140,
+      "depth": 100,
+      "description": "Reef area with multiple ledges, tunnels, caves, and other unusual structures.",
+      "url": "images/French.jpg",
+      "funFacts": "Swim thru one of the large tunnels.",
+      "willSee": "Soft Corals, Seafans and Sea Plumes, Yellowtails, Porkfish, Moray Eels, Cooper Sweepers and Grunts."
+    },
+    {
+      "name": "Pickles Reef",
+      "price": 110,
+      "depth": 25,
+      "description": "Large and shallow reef with coral formed on pickle barrels.",
+      "id": 3,
+      "url": "images/Pickles.jpg",
+      "funFacts": "Pickle barrels are on site after they were filled with cement and sunk in the 1860s.",
+      "willSee": "Spiny Lobsters, Grunts, Snappers, Goatfish, and Sergeant Majors."
+    },
+    {
+      "name": "Carysfort Lighthouse",
+      "price": 135,
+      "depth": 80,
+      "description": "Wide variety of corals at one of the oldest functioning lighthouse.",
+      "id": 4,
+      "url": "images/Craysfort.jpg",
+      "funFacts": "Carysfort Reef the frigate HMS Carysfort, which ran aground in 1770.",
+      "willSee": "Magnificent coral and plenty of fish."
+    },
+    {
+      "name": "Benwood Wreck",
+      "price": 130,
+      "depth": 55,
+      "description": "WWII shipwreck with bioluminescent creatures seen at night.",
+      "id": 5,
+      "url": "images/Benwood.jpg",
+      "funFacts": "Subject to controversy, the ship most likely sank in WWII due to traveling completely blacked out to avoid German U-boats and collided with the Tuttle.",
+      "willSee": "At night- Sea Turtles and eels swimming with lobsters scurrying around for food. Also look for Parrot Fish making their cocoons in the skeletal spars of the ship."
+    },
+    {
+      "name": "Sombrero Reef ",
+      "price": 115,
+      "depth": 30,
+      "description": "Largest coral reef in the Middle Keys.",
+      "url": "https://www.starfishsnorkeling.com/wp-content/uploads/2016/10/iStock_62306274_MEDIUM-1030x686.jpg",
+      "id": 6,
+      "funFacts": "Once a diver was left behind and clung to the rocks all night before being rescued. Dive with us so you will not be left behind.",
+      "willSee": "Parrotfish feeding on the living coral while trumpetfish try to blend in among the coral branches. Also large schools of grunts and snappers swimming among large grouper."
+    },
+    {
+      "name": "Christ of the Abyss",
+      "price": 115,
+      "depth": 60,
+      "description": "One of the most famous and visited underwater sites on earth. Come see the 8.5 foot bronze sculpture.",
+      "url": "https://img.atlasobscura.com/G9_cOduWbqjuwvUNFuNT1tRllB9RanNA9fMVP4sEAlw/rs:fill:780:520:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy81MzY5/ZDFmNy03YjFhLTQ4/ODMtOWU5ZC05NGRm/ZWY4ZWM2ODYyY2Zl/Y2YzMDAwYmNkNDZh/MTdfQ2hyaXN0X29m/X3RoZV9BYnlzc18x/LmpwZw.jpg",
+      "id": 7,
+      "funFacts": "The status is identical to one in the Med of the coast of Italy.",
+      "willSee": "Barracuda, Rays, and sometimes weddings."
+    },
+    {
+      "name": "Pennyroyal Blue Springs Park- Hopkinsville, Ky",
+      "price": 75,
+      "depth": 130,
+      "description": "When you are stuck in Nashville and want to go diving.\n",
+      "url": "images/penny.jpg",
+      "funFacts": "In the 2013 East Nashville Film Festival film award nominated movie \"The Truck\".  The truck filmed going over the cliff was filmed at and landed in at the bottom of the quarry.  ",
+      "willSee": "Planes, Trucks, Vans, RV, Shark, Dinosaur Bones, Bus, Bikes, Helicopter, and so much more.  And lets not forgot the infamous Quarry piranha (aka Bluegill).",
+      "id": 8
+    }
+  ],
+  "diveRequests": [
+    {
+      "userId": 1,
+      "diveSiteId": 5,
+      "date": "2022-07-01",
+      "certification": 130,
+      "comments": "date changed",
+      "completed": true,
+      "id": 1,
+      "completedComments": "Best Ever! Saw so many parrotfish.",
+      "rating": 4
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-06-23",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "id": 2,
+      "completedComments": "Made me feel comfortable jumping off the boat.🚤",
+      "rating": 5
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 3,
+      "date": "2022-06-16",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "id": 3,
+      "completedComments": "Went after a hurricane, vis wasn't that great",
+      "rating": 3
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 4,
+      "date": "2022-06-13",
+      "certification": 60,
+      "comments": "Didn't want to go to pickles",
+      "completed": true,
+      "id": 6,
+      "completedComments": "Very professional and customer oriented. Dives were mesmerizing.",
+      "rating": 4
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 3,
+      "date": "2022-06-29",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Loved seeing all the fish.",
+      "id": 7,
+      "rating": 4
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-06-23",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "id": 9,
+      "completedComments": "So much life around the pickle barrels. Had a lot of fun.",
+      "rating": 5
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 6,
+      "date": "2022-06-24",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "id": 10,
+      "completedComments": "Did you see the guy clinging to the lighthouse?",
+      "rating": 5
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 4,
+      "date": "2022-07-02",
+      "certification": 60,
+      "comments": "cant make it for this one. ",
+      "completed": true,
+      "completedComments": "Water was choppy, threw up on the boat.",
+      "id": 11,
+      "rating": 3
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 1,
+      "date": "2022-06-28",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "id": 12,
+      "completedComments": "Did you see the people getting married there?",
+      "rating": 4
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 5,
+      "date": "2022-06-27",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "completedComments": "You have to go here and do the night dive.",
+      "id": 13,
+      "rating": 4
+    },
+    {
+      "userId": 4,
+      "diveSiteId": 6,
+      "date": "2022-06-27",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "completedComments": "So much coral to see.",
+      "id": 14,
+      "rating": 5
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 3,
+      "date": "2022-07-03",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Fun dive, saw lots of parrotfish.",
+      "id": 17,
+      "rating": 4
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 1,
+      "date": "2022-06-25",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Too many jelly fish.  Got stung.",
+      "id": 18,
+      "rating": 2
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 2,
+      "date": "2022-06-28",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Had so much fun swimming thru the tunnels.",
+      "id": 20,
+      "rating": 4
+    },
+    {
+      "userId": 6,
+      "diveSiteId": 3,
+      "date": "2022-07-01",
+      "certification": 60,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Found a tiger shark and pulled on its tail.  I dont know why it BIT MY ARM.",
+      "id": 21,
+      "rating": 1
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 7,
+      "date": "2022-07-15",
+      "certification": 130,
+      "comments": "change the location",
+      "completed": false,
+      "completedComments": "",
+      "id": 22,
+      "rating": 0
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 3,
+      "date": "2022-08-08",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 25,
+      "rating": 0
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 5,
+      "date": "2022-07-21",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 27
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 4,
+      "date": "2022-07-14",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 28
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-07-04",
+      "certification": 130,
+      "comments": "",
+      "completed": true,
+      "completedComments": "Caught a lobster, but gave it away to the shark so it would not eat me.",
+      "id": 30,
+      "rating": 5
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 3,
+      "date": "2022-07-06",
+      "certification": "",
+      "comments": "Changed the date. ",
+      "completed": true,
+      "completedComments": "",
+      "id": 31
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 6,
+      "date": "2022-07-27",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 7,
+      "date": "2022-07-17",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 33
+    },
+    {
+      "userId": 3,
+      "diveSiteId": 6,
+      "date": "2022-07-18",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "diveSiteId": 2,
+      "date": "2022-07-30",
+      "certification": 60,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 35
+    },
+    {
+      "userId": 7,
+      "diveSiteId": 5,
+      "date": "2022-07-23",
+      "certification": 130,
+      "comments": "",
+      "completed": false,
+      "completedComments": "",
+      "id": 36
+    }
+  ],
+  "assignedDives": [
+    {
+      "guideId": 1,
+      "diveRequestId": 1,
+      "id": 1
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 2,
+      "id": 2
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 6,
+      "id": 4
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 3,
+      "id": 5
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 9,
+      "id": 6
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 10,
+      "id": 7
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 11,
+      "id": 8
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 12,
+      "id": 9
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 20,
+      "id": 10
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 14,
+      "id": 11
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 18,
+      "id": 12
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 13,
+      "id": 13
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 7,
+      "id": 14
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 21,
+      "id": 15
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 17,
+      "id": 17
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 22,
+      "id": 18
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 25,
+      "id": 19
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 27,
+      "id": 20
+    },
+    {
+      "guideId": 2,
+      "diveRequestId": 28,
+      "id": 22
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 30,
+      "id": 24
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 32,
+      "id": 25
+    },
+    {
+      "guideId": 1,
+      "diveRequestId": 31,
+      "id": 26
+    }
+  ],
+  "skillLevels": [
+    {
+      "id": 1,
+      "skill": "Beginner"
+    },
+    {
+      "id": 2,
+      "skill": "Intermediate"
+    },
+    {
+      "id": 3,
+      "skill": "Proficient"
+    },
+    {
+      "id": 4,
+      "skill": "Employee"
+    }
+  ]
+}
